@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexiLearn", "LexiLearn.csproj", "{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5968EC72-C1B9-43F2-B03E-AFC8535D61A6}
+	EndGlobalSection
+EndGlobal
