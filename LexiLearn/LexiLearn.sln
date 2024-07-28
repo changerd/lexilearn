@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexiLearn", "LexiLearn.csproj", "{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexiLearn.Shared", "..\LexiLearn.Shared\LexiLearn.Shared.csproj", "{53D1CBBA-3B16-44A5-8A45-422A91B7CE8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E6605BE-F5C3-4C1F-806F-7232C34A6C70}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{53D1CBBA-3B16-44A5-8A45-422A91B7CE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D1CBBA-3B16-44A5-8A45-422A91B7CE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D1CBBA-3B16-44A5-8A45-422A91B7CE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D1CBBA-3B16-44A5-8A45-422A91B7CE8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

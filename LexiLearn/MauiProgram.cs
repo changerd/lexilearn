@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace LexiLearn
 {
@@ -7,6 +8,13 @@ namespace LexiLearn
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
+
+            var config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .Build();
+
+            builder.Configuration.AddConfiguration(config);
+
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
